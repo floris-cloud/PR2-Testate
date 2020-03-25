@@ -10,11 +10,11 @@ public class KomplexeZahlKlein2 extends KomplexeZahl {
 		}
 	}
 
+	@SuppressWarnings("serial")
 	public class KZKException extends Throwable {
 		@Override
 		public String getMessage() {
-			return "Die Zahl fuer den imaginaeren Anteil ist zu groﬂ!\nReeller Anteil: "
-					+ KomplexeZahlKlein2.super.re();
+			return "Die Zahl fuer den imaginaeren Anteil ist zu groﬂ!\nReeller Anteil: " + KomplexeZahlKlein2.this.re();
 		}
 	}
 }
