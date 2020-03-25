@@ -1,5 +1,7 @@
 package pr2.pu1;
 
+import pr2.pu1.KomplexeZahlKlein2.KZKException;
+
 public class KomplexeZahl {
 
 	private final double realanteil;
